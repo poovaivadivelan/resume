@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import { PDFViewer, View, Text } from '@react-pdf/renderer';
 import ReactPDF from '@react-pdf/renderer';
 import { ReactDOM } from 'react';
-import resume from './assets/puvi.pdf';
+import resume from './assets/puvi_resume.pdf';
 
 const url = `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 pdfjs.GlobalWorkerOptions.workerSrc = url
