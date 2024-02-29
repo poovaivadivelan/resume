@@ -15,8 +15,6 @@ function App() {
     <div>
       <Document file={resume} onLoadError={console.error} >
         <Page size="A4" pageIndex={0} renderAnnotationLayer={false}  renderTextLayer={false}></Page>
-        <View style={{ color: 'white', textAlign: 'center', margin: 30 }}>
-      </View>
       </Document>
     </div>
 
